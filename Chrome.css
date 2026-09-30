@@ -1,0 +1,70 @@
+body{
+  background-image:url(lightgray.jpg);
+  margin: 0;
+  padding:10px;
+  width:500px;
+  box-sizing: border-box;
+  font-family:Arial,Helvetica,sans-serif
+}
+h1{
+  text-align: center;
+  color:rgb(58, 4, 255);
+}
+
+#input-el{
+  box-sizing: border-box;
+  display:block;
+  width:100%;
+  padding:10px;
+  margin:9px 0;
+  
+}
+#input-el::placeholder{
+color:lightslategray;
+}
+
+#button-container{
+  display:f;ex;
+  gap:5px
+}
+#button-container button{
+  flex:1;
+  margin:0;
+}
+
+button{
+  font-size:15px;
+  padding:9px 19px;
+  background-color:green;
+  color:white;
+  border:1px solid green;
+  margin-right: 7px;
+
+}
+button:active{
+  transform:scale(0.91);
+}
+#input-btn{
+  background-color:green;
+}
+
+
+#delete-btn{
+  background-color:white;
+  color:green;
+  border:1px solid green;
+}
+
+
+ul{
+  
+    list-style:none;
+    padding-left:0px;
+  margin-top:20px;
+}
+li{
+  margin-top:7px;
+}
+li a{
+  color:green;
+}
