@@ -19,7 +19,7 @@ function render(leads){
   for (let i=0;i<leads.length;i++){
     listitems+=`
     <li>
-    <a href='myleads[i]'>${leads[i]}</a> 
+    <a href='myleads[i]'><strong>${leads[i]}</strong></a> 
     </li>`
     ulEl.append(listitems)
   }
