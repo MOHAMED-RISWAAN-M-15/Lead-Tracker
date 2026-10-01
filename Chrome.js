@@ -19,9 +19,9 @@ function render(leads){
   for (let i=0;i<leads.length;i++){
     listitems+=`
     <li>
-    <a href='myleads[i]'><strong>${leads[i]}</strong></a> 
+    <a href='>${leads[i]}'><strong>${leads[i]}</strong></a> 
     </li>`
-    ulEl.append(listitems)
+    
   }
   ulEl.innerHTML=listitems
 }
@@ -38,7 +38,7 @@ tabBtn.addEventListener("click",function(){
    chrome.tabs.query({active:true,currentWindow:true},function(tabs){
     let activeTab=tabs[0];
     myleads.push(activeTab.url)
-   localStorage.setaItem("myleads",JSON.stringify(myleads))
+   localStorage.setItem("myleads",JSON.stringify(myleads))
    render(myleads)
 })
     
