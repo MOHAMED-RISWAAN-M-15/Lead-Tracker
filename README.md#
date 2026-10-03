@@ -1,3 +1,53 @@
-#  Lead Tracker
-this is a tutorial project for javascript from youtub
+##Leads Tracker
+
+A simple Chrome extension that helps you save useful links directly from your browser.
+
+##Features
+
+- Save a URL manually using SAVE INPUT
+- Save the current browser tab using SAVE TAB
+- View all saved links
+- Click a saved link to open it
+- Delete all saved links using DELETE ALL
+- Store links using "localStorage"
+
+Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- Chrome Extensions API
+- Local Storage
+
+
+##How It Works
+
+SAVE INPUT
+
+Enter a URL in the input field and click SAVE INPUT to save it.
+
+SAVE TAB
+
+Click SAVE TAB to save the URL of the current browser tab.
+
+DELETE ALL
+
+DoubleClick DELETE ALL to remove all saved links.
+
+The extension uses "localStorage" to keep the saved links available after reopening the extension.
+
+The SAVE TAB feature uses the Chrome Tabs API to get the URL of the current tab.
+
+
+##What I Learned
+
+- DOM manipulation
+- JavaScript arrays and functions
+- Event listeners
+- "localStorage"
+- "JSON.stringify()" and "JSON.parse()"
+- Chrome Extension Manifest V3
+- Chrome Tabs API
+- HTML and CSS
+- Git and GitHub
 
